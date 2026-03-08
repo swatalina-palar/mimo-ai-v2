@@ -11,13 +11,13 @@ This project is separated into a frontend client and a backend server.
 
 ## Getting Started
 
-### Prerequisites
+Prerequisites
 - Node.js installed on your machine.
 - MongoDB instance (for backend).
 - Firebase project configured (for frontend auth/storage).
 - Google Gemini and OpenAI API keys (for AI features).
 
-### 1. Installation
+1. Installation
 
 First, clone the repository and install the dependencies for both the frontend and backend.
 
@@ -33,7 +33,7 @@ cd mimo-frontend
 npm install
 ```
 
-### 2. Environment Variables (.env Files)
+2. Environment Variables (.env Files)
 
 You will need to create `.env` files in both the frontend and backend directories.
 **Do not** commit your actual `.env` files to GitHub (they are automatically ignored by our `.gitignore` configuration).
@@ -59,7 +59,7 @@ VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
 VITE_API_URL=http://localhost:5000
 ```
 
-### 3. Running the Project
+ 3. Running the Project
 
 **Start the Backend Server:**
 ```bash
