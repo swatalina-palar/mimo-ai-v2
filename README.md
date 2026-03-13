@@ -74,3 +74,5 @@ npm run dev
 ```
 
 Your application should now be accessible locally. The frontend will point to the backend API (`http://localhost:5000`) for processing AI sentiment analysis and data querying.
+
+Developed by Swatalina Palar
